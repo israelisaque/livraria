@@ -7,14 +7,12 @@ public class Livro {
 	private double valor;
 	private String isbn;
 	private Autor autor;
+	private boolean impresso;
 	
 	public Livro(Autor autor) {
-		this();
 		this.autor = autor;
-	}
-	
-	public Livro() {
 		this.isbn = "000-00-00000-00-0";		
+		this.impresso = true;
 	}
 	
 	public String getNome() {
@@ -63,10 +61,11 @@ public class Livro {
 		System.out.println("--");
 	}
 	
-	public boolean aplicaDesconto(double porcentagem) {
+	public boolean aplicaDescontoDe(double porcentagem) {
 		if (porcentagem > 0.3) {
 			return false;
 		}
+		System.out.println("Aplicando desconto no Livro");
 		this.valor -= this.valor * porcentagem;
 		return true;
 	}
