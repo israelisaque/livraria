@@ -11,7 +11,7 @@ Os commits foram criados a partir da evolução do projeto desenvolvido no livro
 	2. Herança e Polimorfismo
 	3. Abstração
 - Interfaces
-- 
+- Pacotes
 
 ## Tecnologias utilizadas 
 - Java SE 15
