@@ -10,13 +10,6 @@ public class RegrasDeDesconto {
 		Livro livro = new MiniLivro(autor);
 		livro.setValor(59.90);
 		
-		if (!livro.aplicaDescontoDe(0.3)) {
-			System.out.println("Desconto no livro não pode ser maior que 30%");
-		} else {
-			 System.out.println("Valor do livro com desconto: " + livro.getValor());
-		}
-		
-		
 		Ebook ebook = new Ebook(autor);
 		ebook.setValor(29.90);
 		
