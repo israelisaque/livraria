@@ -61,11 +61,21 @@ public abstract class Livro implements Produto {
 		if (this.temAutor()) {
 			this.autor.mostrarDetalhes();
 		}
-		
 		System.out.println("--");
 	}
 	
 	public boolean temAutor() {
 		return this.autor != null;
+	}
+	
+	@Override 
+	public int compareTo(Produto outro) {
+		if (this.getValor() < outro.getValor()) {
+			return -1;
+		}
+		if (this.getValor() > outro.getValor()) {
+			return 1;
+		}
+		return 0;
 	}
 }

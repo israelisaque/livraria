@@ -14,9 +14,17 @@ Os commits foram criados a partir da evolução do projeto desenvolvido no livro
 - Pacotes
 - Arrays 
 - Exception
+- Collections
+  - List
+  - ArrayList
+  - Set
+  - Map
+  - HashMap
+  - HashSet
 
 ## Tecnologias utilizadas 
 - Java SE 15
 
 
-_Obs: Este projeto está em fase de desenvolvimento._
+_Obs: Necessário JDK 8 ou posterior para rodar a aplicação._
+
