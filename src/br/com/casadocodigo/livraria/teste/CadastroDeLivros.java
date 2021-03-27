@@ -13,7 +13,7 @@ public class CadastroDeLivros {
 		autor.setEmail("rodrigo.turini@caelum.com.br");
 		autor.setCpf("123.456.789.10");
 		
-		Livro livro = new LivroFisico(autor);
+		Livro livro = new LivroFisico(null);
 		livro.setNome("Java 8 Prático");
 		livro.setDescricao("Novos recursos da linguagem");
 		livro.setValor(59.90);
@@ -32,7 +32,7 @@ public class CadastroDeLivros {
 		outroLivro.setValor(59.90);
 		outroLivro.setIsbn("978-85-66250-22-0");
 				
-		livro.mostrarDetalhes();
+		outroLivro.mostrarDetalhes();
 
 	}
 }

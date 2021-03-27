@@ -12,6 +12,8 @@ Os commits foram criados a partir da evolução do projeto desenvolvido no livro
 	3. Abstração
 - Interfaces
 - Pacotes
+- Arrays 
+- Exception
 
 ## Tecnologias utilizadas 
 - Java SE 15
